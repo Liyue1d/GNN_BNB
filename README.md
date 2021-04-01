@@ -5,8 +5,4 @@ Aims to compute optimal solutions in a graph to problems instances I = (s,d,M) w
 Uses an Graph neural network to first compute an upper bound, then leverages the upper bound for cuts in a branch & bound tree search which returns the optimal solution.
 
 Requirements:
--SWIG (need to setup config files for numpy so C++ knows where to look for required files)
--numpy
--networkx
--scipy
--tensorflow
+-SWIG (need to setup config files for numpy so C++ knows where to look for required files), numpy, networkx, scipy, tensorflow
